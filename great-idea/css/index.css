@@ -74,7 +74,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: #c4c4c4;
     padding-top: 10px;
     padding-right: 64.5px;
 }
@@ -88,6 +88,7 @@ a:hover {
  justify-content: space-evenly;
  align-content: center;
  justify-content: ceneter;
+ margin-top: 50px;
 }
 
 h1 {
@@ -101,25 +102,24 @@ h1 {
 }
 
 button {
-	width: 200px;
-	height: 40px;
+	width: 170px;
+	height: 35px;
 	font-size: 20px;
 	background-color: white;
-	color: gray;
     border: 1px solid black;
     
 }
 
 .button {
-	margin-left: 276px;
-	margin-top: -70px;
+	margin-left: 325px;
+    margin-top: -90px;
 }
 
 button:hover {
     color: limegreen;
 }
 .hr1 {
-	margin-top: 100px;
+	margin-top: 120px;
 	border: 1px solid black;
 	width: 876px;
 	margin-right: 260px;
@@ -182,4 +182,17 @@ header {
 
 .ddui {
     display: flex;
+}
+
+.sect1 h1 {
+    margin-left: 110px;
+   
+}
+
+.circle {
+    margin-right: 100px;
+    
+}
+button {
+    color: black;
 }
