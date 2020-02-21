@@ -112,9 +112,10 @@ a:hover {
 }
 
 hr {
-    margin-top: 50px;
-	border: 1px solid black;
-    width: 876px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+	border: 0.5px solid black;
+    width: 882px;
 }
 
 header {
@@ -125,14 +126,14 @@ header {
 
 .section2 {
     display: flex;
-    width: 876px;
-    margin-left: 230px;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .sectionthree {
-    width: 876px;
-    margin-left: 398px;
+    display: flex;
+    justify-content: center;
+    
     
 }
 .dmwd {
@@ -141,8 +142,7 @@ header {
 }
 .section4 {
     display: flex;
-    width: 876px;
-    margin-left: 398px;
+    justify-content: center;
 }
 
 section .android-dev,
@@ -150,7 +150,82 @@ section .android-dev,
 .digital-marketing, 
 .UX-UI, .digital-design
  {
-    background-color: lightgray;
+    background-color: #F4F3F4;
     border: 1px solid black;
-    margin: 5px;
+    margin: 20px;
+    width: 420.5px;
+    height: 220px;
+}
+.section2 h2 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sectionthree h2 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.section4 h2 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+p {
+    padding-left: 20px;
+    line-height: 18px;
+    
+}
+button {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 145px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+}
+
+button:hover {
+    color: limegreen;
+}
+
+.hr-2 {
+    border: 1px solid black;
+    width: 881px;
+    
+}ul {
+    list-style-type: square;
+
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    width: 880px;
+    margin-left: 230px;
+
+}
+
+
+.section3 h2 {
+margin-left: 0px;
+}
+ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.section3 p {
+    margin-left: -20px;
+}
+
+.section1 h1 {
+    font-size: 26px;
+}
+
+.section1 p {
+    margin-left: -20px;
+    line-height: 20px;
 }
