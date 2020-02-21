@@ -61,17 +61,37 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
     /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.h1-2 {
+    font-size: 30px;
+}
+
+ footer {
+    border: 1px solid red;
+}
+
+.sev-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
     width: 876px;
-    
+
 }
- .container {
+.container {
 	width: 80%;
 	margin: 0 auto;
 }
-
 a {
     text-decoration: none;
     color: gray;
@@ -83,96 +103,19 @@ a:hover {
     color: limegreen;
 }
 
-.sect1 {
- display: flex;
- justify-content: space-evenly;
- align-content: center;
- justify-content: ceneter;
-}
 
-h1 {
-    padding-top: 75px;
-    font-size: 80px;
-    text-align: center;
-}
-
-.circle {
-    padding-top: 40px;
-}
-
-button {
-	width: 200px;
-	height: 40px;
-	font-size: 20px;
-	background-color: white;
-	color: gray;
-    border: 1px solid black;
-    
-}
-
-.button {
-	margin-left: 276px;
-	margin-top: -70px;
-}
-
-button:hover {
-    color: limegreen;
-}
-.hr1 {
-	margin-top: 100px;
-	border: 1px solid black;
-	width: 876px;
-	margin-right: 260px;
-}
-
-.sect2 {
+.section1 {
     display: flex;
     width: 876px;
-    justify-content: space-between;
-    margin-left: 210px;
-    margin-top: 50px;
+    margin-left: 230px;
+    margin-top: 40px;
 }
 
-.picture {
-    display: flex;
-    justify-content: center;
-    padding-right: 50px;
-    padding-top: 50px;
-}
-
-.sect3 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 876px;
-    margin-left: 210px;
+hr {
     margin-top: 50px;
-   }
-
-footer div {
-    width: 200px;
-    margin-left: 375px;
-    margin-top: 50px;
-
-}
-
-.hr2 {
-    margin-top: 100px;
 	border: 1px solid black;
     width: 876px;
-    
 }
-
-.tester {
-    
-    margin-right: 50px;
-}
-
-.copyright {
-    display: flex;
-    justify-content: center;
-}
-
 
 header {
     display: flex;
@@ -180,6 +123,34 @@ header {
     justify-content: center;
 }
 
-.ddui {
+.section2 {
     display: flex;
+    width: 876px;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.sectionthree {
+    width: 876px;
+    margin-left: 398px;
+    
+}
+.dmwd {
+    display: flex;
+    
+}
+.section4 {
+    display: flex;
+    width: 876px;
+    margin-left: 398px;
+}
+
+section .android-dev,
+.ios-dev, .web-dev, 
+.digital-marketing, 
+.UX-UI, .digital-design
+ {
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 5px;
 }
